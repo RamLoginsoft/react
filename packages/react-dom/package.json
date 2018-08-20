@@ -17,9 +17,6 @@
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.2"
   },
-  "peerDependencies": {
-    "react": "^16.0.0"
-  },
   "files": [
     "LICENSE",
     "README.md",
