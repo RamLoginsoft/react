@@ -27,7 +27,7 @@ function writeConfig(renderer) {
     `
 module.name_mapper='react-reconciler/inline.${renderer}$$' -> 'react-reconciler/inline-typed'
 module.name_mapper='ReactFiberHostConfig$$' -> 'forks/ReactFiberHostConfig.${renderer}'
-    `.trim(),
+    `.trim()
   );
 
   const disclaimer = `
